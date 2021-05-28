@@ -19,7 +19,7 @@ const AddTransection = () => {
     <>
       <h3>Add Transection</h3>
       <form onSubmit={onSubmit}>
-        <div>
+        <div className="form-control">
           <label htmlFor="text">Text</label>
           <input
             type="text"
@@ -29,7 +29,7 @@ const AddTransection = () => {
             placeholder="Enter Your Text.."
           />
         </div>
-        <div>
+        <div className="form-control">
           <label htmlFor="Amount">
             Amount <br /> (Negative- Expense, Positive-Income)
           </label>
@@ -41,7 +41,7 @@ const AddTransection = () => {
             onChange={(e) => setAmount(e.target.value)}
           />
         </div>
-        <button>Add Transection</button>
+        <button className="btn">Add Transection</button>
       </form>
     </>
   );

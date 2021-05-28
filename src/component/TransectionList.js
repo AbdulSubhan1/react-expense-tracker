@@ -8,7 +8,7 @@ const TransectionList = () => {
   return (
     <>
       <h4>History</h4>
-      <ul>
+      <ul className="list">
         {transections.length >= 0 ? (
           transections.map((transection) => (
             <Transection key={transection.id} transection={transection} />

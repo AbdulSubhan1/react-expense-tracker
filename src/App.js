@@ -10,7 +10,7 @@ function App() {
   return (
     <GlobalProvider>
       <Header />
-      <div>
+      <div className="container">
         <Balance />
         <IncomeExpense />
         <TransectionList />
